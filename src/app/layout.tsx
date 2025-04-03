@@ -16,7 +16,7 @@ export default function RootLayout({
   return (
     <html lang='en' className='dark'>
       <body className={`${notosans.className} font-bold antialiased bg-linear-(--gradient) min-h-screen pt-6`}>
-        <div className='mx-4 sm:mx-8 md:mx-auto md:max-w-[704px] lg:mx-[135px] lg:max-w-[1170px]'>
+        <div className='mx-4 sm:mx-8 lg:max-w-[1170px] lg:mx-auto'>
           <Header />
           {children}
         </div>
